@@ -1,0 +1,13 @@
+print("|||||||||||||||MURAL DE PONTOS|||||||||||||")
+t1= str(input("Digite o nome do primeiro time:"))
+t2= str(input("Digite o nome do segundo time:"))
+g1= int(input("Digite quantos gols o primeiro timefez: "))
+g2= int(input("Digite quantos gols o segundo time fez: "))
+
+
+if g1 > g2:
+  print(t1, "venceu o jogo")
+elif g2 > g1:
+    print(t2, "venceu o jogo")
+else:
+      print(t1, "e", t2 , "empataram")
